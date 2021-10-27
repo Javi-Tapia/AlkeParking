@@ -1,0 +1,26 @@
+import java.util.*
+
+object VehiclesInstances {
+    val car = Vehicle("AA111AA", VehicleType.CAR, Calendar.getInstance(), "DISCOUNT_CARD_001")
+    val motorcycle = Vehicle("B222BBB", VehicleType.MOTORCYCLE, Calendar.getInstance())
+    val minibus = Vehicle("CC333CC", VehicleType.MINIBUS, Calendar.getInstance())
+    val bus = Vehicle("DD444DD", VehicleType.BUS, Calendar.getInstance(), "DISCOUNT_CARD_002")
+    val car2 = Vehicle("AA222AA", VehicleType.CAR, Calendar.getInstance())
+    val motorcycle2 = Vehicle("B333BBB", VehicleType.MOTORCYCLE, Calendar.getInstance(), "DISCOUNT_CARD_003")
+    val minibus2 = Vehicle("CC444CC", VehicleType.MINIBUS, Calendar.getInstance())
+    val bus2 = Vehicle("DD555DD", VehicleType.BUS, Calendar.getInstance())
+    val car3 = Vehicle("AA333AA", VehicleType.CAR, Calendar.getInstance(), "DISCOUNT_CARD_004")
+    val motorcycle3 = Vehicle("B444BBB", VehicleType.MOTORCYCLE, Calendar.getInstance(), "DISCOUNT_CARD_005")
+    val minibus3 = Vehicle("CC555CC", VehicleType.MINIBUS, Calendar.getInstance())
+    val bus3 = Vehicle("DD666DD", VehicleType.BUS, Calendar.getInstance(), "DISCOUNT_CARD_006")
+    val car4 = Vehicle("AA444AA", VehicleType.CAR, Calendar.getInstance(), "DISCOUNT_CARD_007")
+    val motorcycle4 = Vehicle("B555BBB", VehicleType.MOTORCYCLE, Calendar.getInstance(), "DISCOUNT_CARD_008")
+    val minibus4 = Vehicle("CC666CC", VehicleType.MINIBUS, Calendar.getInstance())
+    val bus4 = Vehicle("DD777DD", VehicleType.BUS, Calendar.getInstance(), "DISCOUNT_CARD_009")
+    val car5 = Vehicle("AA555AA", VehicleType.CAR, Calendar.getInstance())
+    val motorcycle5 = Vehicle("B666BBB", VehicleType.MOTORCYCLE, Calendar.getInstance())
+    val minibus5 = Vehicle("CC777CC", VehicleType.MINIBUS, Calendar.getInstance(), "DISCOUNT_CARD_010")
+    val bus5 = Vehicle("DD888DD", VehicleType.BUS, Calendar.getInstance())
+//    val bus6 = Vehicle("123456", VehicleType.BUS, Calendar.getInstance())
+//    val bus7 = Vehicle("456789", VehicleType.BUS, Calendar.getInstance())
+}
